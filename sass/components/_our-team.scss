@@ -1,0 +1,33 @@
+@import "../components/social-team";
+
+.team {
+  box-shadow: $box-shadow;
+  border-radius: 0px 0px 4px 4px;
+  background-color: $page-color;
+}
+
+.team-list-link {
+  @include centeredFlex(flex, space-between);
+}
+
+.our-team {
+  text-align: center;
+  background: $section-secondary-color;
+}
+
+.team-foto {
+  margin-bottom: 30px;
+}
+
+.team-name {
+  margin-bottom: 10px;
+
+  @extend %team-font;
+}
+
+.team-profession {
+  margin-bottom: 16px;
+
+  @extend %team-font;
+  color: $pege-secondary-color;
+}

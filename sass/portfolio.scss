@@ -1,1 +1,7 @@
+@import "./utils/variables";
+@import "./utils/global-handling";
+@import "./utils/mixin";
 @import "./base/normalize";
+@import "./layout/header";
+@import "./layout/main-portfolio";
+@import "./layout/footer";

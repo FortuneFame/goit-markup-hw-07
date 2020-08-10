@@ -6,7 +6,8 @@
 .examples-link {
   position: relative;
   display: block;
-  @extend %gallery-card;
+  width: 370px;
+  height: 404px;
 
   &:hover,
   &:focus {
@@ -27,7 +28,9 @@
 .link-gallery {
   display: inline-block;
 
-  @extend %gallery-card;
+  width: 370px;
+  height: 404px;
+
   outline: none;
   text-decoration: none;
 

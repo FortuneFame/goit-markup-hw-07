@@ -1,7 +1,11 @@
 @import "./utils/variables";
-@import "./utils/global-handling";
 @import "./utils/mixin";
+@import "./utils/global-handling";
 @import "./base/normalize";
 @import "./layout/header";
-@import "./layout/main-portfolio";
+@import "./components/logo-company";
+@import "./components/menu-gallery";
+@import "./components/gallery";
+@import "./components/social-icon";
+@import "./components/subscription";
 @import "./layout/footer";

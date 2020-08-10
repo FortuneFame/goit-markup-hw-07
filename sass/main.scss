@@ -1,8 +1,15 @@
 @import "./utils/variables";
-@import "./utils/global-handling";
 @import "./utils/mixin";
+@import "./utils/global-handling";
 @import "./base/normalize";
 @import "./layout/header";
-@import "./layout/main-studio";
+@import "./components/logo-company";
+@import "./components/hero";
+@import "./components/about-us";
+@import "./components/our-activity";
+@import "./components/our-team";
+@import "./components/social-icon";
+@import "./components/user";
+@import "./components/subscription";
 @import "./layout/footer";
 @import "./components/modal";

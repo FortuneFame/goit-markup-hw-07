@@ -30,3 +30,22 @@
 
   @include transitionSite;
 }
+
+.social-list-link {
+  @include centeredFlex;
+}
+
+.social-footer {
+  fill: #ffffff;
+}
+
+.social-link {
+  border-radius: 50%;
+  background-color: $footer-social-background-color;
+}
+
+.social-links {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}

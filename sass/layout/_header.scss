@@ -67,9 +67,13 @@ header {
 
 .feedback-list-item {
   @include centeredFlex;
+  flex-wrap: wrap;
 }
 
 .feedback {
+  display: flex;
+  flex-wrap: nowrap;
+
   &:not(:last-child) {
     margin-right: 50px;
   }
